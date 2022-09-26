@@ -1,0 +1,30 @@
+{
+    "name": "mahmut/phalcon-middleware",
+    "description": "Middleware component for Phalcon Framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mahmut Özdemir",
+            "email": "bilgi@mahmutozdemir.com.tr",
+            "role": "Developer"
+        },
+        {
+            "name": "Sid Roberts",
+            "email": "sid@sidroberts.co.uk",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "~7.2",
+        "ext-phalcon": ">=3.4"
+    },
+    "require-dev": {
+        "phalcon/ide-stubs": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phalcon\\Mahmut\\": "src/"
+        }
+    }
+}
