@@ -26,5 +26,6 @@
         "psr-4": {
             "Phalcon\\Mahmut\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
